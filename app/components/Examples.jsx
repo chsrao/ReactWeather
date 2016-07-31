@@ -10,7 +10,7 @@ var Examples = React.createClass({
 
 var Examples = () => {
     return (
-        <h3>Exampless</h3>
+        <h3>Examples !</h3>
     );
 }
 
