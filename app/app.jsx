@@ -7,6 +7,16 @@ var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
 
+
+/**
+ * require does not know how to load css file, for that use 'css!' loader
+ * and then use 'style!' to inject the css into the html
+ * */
+require('style!css!foundation-sites/dist/foundation.min.css');
+
+//load foundation stylesheet
+$(document).foundation();
+
 /*
  var raoobj = { interest: 'bikes' };
  var {interest} = raoobj; //is equivalent to var interest = raoobj.interest;
